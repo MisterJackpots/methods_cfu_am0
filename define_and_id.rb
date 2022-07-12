@@ -11,17 +11,26 @@
 
 
 "Hello World".include?("Hello")
-
+# The include? method is called on the string "Hello World"
+# The argument "Hello" is being passed on the include? method, and the return
+# value is true.
 
 "Hello World".end_with?("Hello")
-
+# The end_with? method is called on the string "Hello World"
+# The argument "Hello" is being passed on the end_with? method, and the return
+# value is false.
 
 "Hello World".end_with?("rld")
-
+# The end_with? method is called on the string "Hello World"
+# The argument "rld" is being passed on the end_with? method, and the return
+# value is true.
 
 12.even?
-
+# The even? method is called on the integer 12
+# The argument being passed is to determine whether the integer 12 is an even
+# number, and the return value is true,
 
 18.next
-
-
+# The next method is called on the integer 18
+# No arguments are passed, the only job of next is display the next integer in
+# sequential order.  The return value is 19.
