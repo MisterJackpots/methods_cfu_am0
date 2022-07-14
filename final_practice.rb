@@ -30,20 +30,25 @@ end
 
 
 #3: Write a method named square that takes in one number, and returns the square of that number
+def square(num1)
+  num1 * num1
+end
 
+square(4)
 
-
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# What is the return value of your method? 16
+# How many arguments did you pass your method? 1
+# What data type was your argument(s)? Integer
 
 
 
 
 #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
+def greet_person(first = "Henry", middle = "David", last = "Thoreau")
+  puts "Welcome to the modern age, #{first} #{middle} #{last}!"
+end
 
-
-
-# What is the return value of your method?
+greet_person
+# What is the return value of your method? Nil
 # How many arguments did you pass your method?
-# What data type was your argument(s)?
+# What data type was your argument(s)? String
